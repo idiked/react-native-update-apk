@@ -153,5 +153,5 @@ export class UpdateAPK {
   /**
    * Check if there is a new version available
    */
-  checkUpdate(): Promise<void>;
+  checkUpdate(): void;
 }
